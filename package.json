@@ -1,5 +1,17 @@
 {
   "devDependencies": {
     "prettier": "2.8.8"
-  }
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
